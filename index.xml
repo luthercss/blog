@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ACM Luther College</title>
+    <title>ACM Luther College Blog</title>
     <link>/</link>
-    <description>ACM Luther College</description>
+    <description>ACM Luther College Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 16 Oct 2020 02:40:57 -0500</lastBuildDate>
@@ -87,7 +87,7 @@ Hugo Static Site Generator v0.13 BuildDate: 2015-03-09T21:34:47-05:00
 &lt;h2 id=&#34;event&#34;&gt;Event&lt;/h2&gt;
 &lt;p&gt;Once you have setup both Git and Hugo on your computer, you are all set to begin. See you on Sunday! Let us know you have any questions or trouble with the setup.&lt;/p&gt;
 &lt;h2 id=&#34;author&#34;&gt;Author&lt;/h2&gt;
-&lt;p&gt;This tutorial is authored by &lt;a href=&#34;https://swopnilnep.com&#34;&gt;Swopnil Shrestha&lt;/a&gt;. I am the president of ACM Luther College for the 2020-2021 academic year.&lt;/p&gt;
+&lt;p&gt;This tutorial is authored by &lt;a href=&#34;https://swopnilnep.com&#34;&gt;Swopnil Shrestha&lt;/a&gt; as part of a workshop series for ACM Luther College for the 2020-2021 academic year.&lt;/p&gt;
 </description>
     </item>
     
