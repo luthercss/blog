@@ -10,13 +10,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer-when-downgrade">
 
-<title>Setting Up: Getting Started with Hugo Sites - ACM Luther College Blog</title>
+<title>Setting Up: Getting Started with Hugo Sites - ACM Luther College</title>
 <meta name="description" content="Also known as the Computer Science Society, we are the ACM Student Chapter at Luther College.">
 
-<link rel="icon" type="image/x-icon" href="blog/favicon.ico">
-<link rel="apple-touch-icon-precomposed" href="blog/favicon.png">
+<link rel="icon" type="image/x-icon" href="https://luthercss.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://luthercss.github.io/favicon.png">
 
-<link rel="stylesheet" href="blog/css/light.css?rnd=1602868466" />
+<link rel="stylesheet" href="https://luthercss.github.io/css/light.css?rnd=1603043009" />
 <style>
 
     [data-theme="dark"] {   
@@ -48,24 +48,24 @@
 
 </style>
 
-<link rel="stylesheet" href="blog/css/style.css?rnd=1602868466" />
+<link rel="stylesheet" href="https://luthercss.github.io/css/style.css?rnd=1603043009" />
 
-<link rel="stylesheet" href="blog/css/my.css?rnd=1602868466">
+<link rel="stylesheet" href="https://luthercss.github.io/css/my.css?rnd=1603043009">
 
-<script src="blog/js/main.js?rnd=1602868466" type="text/javascript" charset="utf-8"></script>
+<script src="https://luthercss.github.io/js/main.js?rnd=1603043009" type="text/javascript" charset="utf-8"></script>
 
 <meta property="og:title" content="Setting Up: Getting Started with Hugo Sites" />
 <meta property="og:description" content="Welcome to this ACM Luther tutorial to create a static site using Hugo. This blog post is intended to accompany the &ldquo;Building a Personal Static Website&rdquo; workshop on 2020, Oct 18th.
 If you have any questions or trouble with this tutorial, you can message the Luther ACM Slack channel.
 Philosophy Hugo is a fast, flexible static site generator, one of the most popular open source generators among the numerous static site generators available." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="blog/posts/00-workshop1/" />
-<meta property="og:image" content="blog/images/featured.png"/>
+<meta property="og:url" content="https://luthercss.github.io/posts/workshop1/" />
+<meta property="og:image" content="https://luthercss.github.io/static/images/featured.png"/>
 <meta property="article:published_time" content="2020-10-16T02:40:57-05:00" />
 <meta property="article:modified_time" content="2020-10-16T02:40:57-05:00" />
 
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="blog/images/featured.png"/>
+<meta name="twitter:image" content="https://luthercss.github.io/static/images/featured.png"/>
 
 <meta name="twitter:title" content="Setting Up: Getting Started with Hugo Sites"/>
 <meta name="twitter:description" content="Welcome to this ACM Luther tutorial to create a static site using Hugo. This blog post is intended to accompany the &ldquo;Building a Personal Static Website&rdquo; workshop on 2020, Oct 18th.
@@ -87,13 +87,15 @@ Philosophy Hugo is a fast, flexible static site generator, one of the most popul
         <header class="common-header"> 
             
                 <h1 class="site-title">
-    <a href="/blog">ACM Luther College Blog</a>
+    <a href="/">ACM Luther College</a>
 </h1>
 
     <nav>
         
         
-        <a class="" href="blog/blog/posts/" title="Archive">Archive</a>
+        <a class="" href="https://luthercss.github.io" title="About">About</a>
+        
+        <a class="" href="https://luthercss.github.io/posts/" title="Posts">Posts</a>
         
     </nav>
 
@@ -113,10 +115,10 @@ Philosophy Hugo is a fast, flexible static site generator, one of the most popul
 <p>If you have any questions or trouble with this tutorial, you can message the <a href="https://luthercs.slack.com/archives/C6Z17T3CK">Luther ACM Slack channel</a>.</p>
 <h2 id="philosophy">Philosophy</h2>
 <p>Hugo is a fast, flexible static site generator, one of the most popular open source generators among the <a href="https://jamstack.org/generators/">numerous static site generators</a> available. In can be a handy tool to create static websites fast on the go. It can also be an effective tool to host blogs, small web projects or other personal content.</p>
-<p>In the workshop we will go over how to build a personal portfolio using Hugo. We will then host the website on <a href="https://pages.github.com/">GitHub Pages</a>, in a website that looks like <a href="https://luthercss.github.io">this</a>. If you purchase a domain, you can even connect your GitHub pages website to a domain like <a href="https://swopnilnep.com">this</a>.</p>
+<p>In the workshop we will go over how to build a personal portfolio using Hugo. We will then host the website on <a href="https://pages.github.com/">GitHub Pages</a>, in a website that looks like <a href="https://luthercss.github.io">this</a>.</p>
 <h2 id="prerequisites">Prerequisites</h2>
 <p>Basic familiarity with Git version control is recommended. If you don&rsquo;t plan to publish your website, Git will not be required. If you have already configured and used Git to push and pull from a repository, skip to Step 2.</p>
-<p>Not familiar with Git? Do not worry! This assumption in this tutorial will be that you are unfamiliar with Git. I still recommend you to take a look at this Git Cheatsheet to get familiar with some basic commands.</p>
+<p>Not familiar with Git? Do not worry! This assumption in this tutorial will be that you are unfamiliar with Git. I still recommend you to take a look at this <a href="https://education.github.com/git-cheat-sheet-education.pdf">Git Cheatsheet</a> to get familiar with some basic commands.</p>
 <p>The only commands we will be using for this tutorial are:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ git status
 $ git add &lt;location&gt;
@@ -146,6 +148,8 @@ $ git config --global user.email johndoe@example.com
 <li>Now, follow this tutorial to <a href="https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent">Generate a new SSH key and add it to the ssh-agent</a>. Remember to use the tutorial specific to your operating system.</li>
 <li>Last step for this section, <a href="https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account">Add the new SSH key to your GitHub account</a>.</li>
 </ol>
+<h3 id="step-2-installing-hugo-windows">Step 2: Installing Hugo (Windows)</h3>
+<p>For Windows users, you can either go through this <a href="https://gohugo.io/getting-started/installing/#windows">text tutorial</a> or watch a <a href="https://www.youtube.com/watch?v=G7umPCU-8xc">video tutorial</a>. Both yield the same result of installing Hugo on your computer.</p>
 <h3 id="step-2-installing-hugo-macos--linux">Step 2: Installing Hugo (MacOS / Linux)</h3>
 <p>If you are on MacOS or Linux i.e. any UNIX based operating system, you need to have <code>brew</code> configured beforehand to install <code>hugo</code>. To check if you have <code>brew</code> installed, open your terminal and enter</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ brew -v
@@ -174,12 +178,10 @@ hugo version
 Hugo Static Site Generator v0.13 BuildDate: 2015-03-09T21:34:47-05:00
 
 </code></pre></div><p>If you get the output, congratulations! You should be all set for the workshop.</p>
-<h3 id="step-2-installing-hugo-windows">Step 2: Installing Hugo (Windows)</h3>
-<p>For Windows users, you can either go through this <a href="https://gohugo.io/getting-started/installing/#windows">text tutorial</a> or watch a <a href="https://www.youtube.com/watch?v=G7umPCU-8xc">video tutorial</a>. Both yield the same result of installing Hugo on your computer.</p>
 <h2 id="event">Event</h2>
 <p>Once you have setup both Git and Hugo on your computer, you are all set to begin. See you on Sunday! Let us know you have any questions or trouble with the setup.</p>
 <h2 id="author">Author</h2>
-<p>This tutorial is authored by <a href="https://swopnilnep.com">Swopnil Shrestha</a> as part of a workshop series for ACM Luther College for the 2020-2021 academic year.</p>
+<p>This tutorial is authored by <a href="https://swopnil.com">Swopnil Shrestha</a> as part of a workshop series for ACM Luther College for the 2020-2021 academic year.</p>
 
         </div>
         
@@ -207,7 +209,7 @@ Hugo Static Site Generator v0.13 BuildDate: 2015-03-09T21:34:47-05:00
         </div>
         <div class="right pagination-item ">
             
-                <a href="/blog/posts/hello/">Hello!</a>
+                <a href="/posts/hello/">Hello!</a>
             
         </div>
     </div>

@@ -3,31 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/blog/</loc>
+    <loc>https://luthercss.github.io/</loc>
     <lastmod>2020-10-16T02:40:57-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/posts/</loc>
+    <loc>https://luthercss.github.io/posts/</loc>
     <lastmod>2020-10-16T02:40:57-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/posts/00-workshop1/</loc>
+    <loc>https://luthercss.github.io/posts/workshop1/</loc>
     <lastmod>2020-10-16T02:40:57-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/posts/hello/</loc>
+    <loc>https://luthercss.github.io/posts/hello/</loc>
     <lastmod>2020-10-16T02:30:19-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/categories/</loc>
+    <loc>https://luthercss.github.io/categories/</loc>
   </url>
   
   <url>
-    <loc>/blog/tags/</loc>
+    <loc>https://luthercss.github.io/tags/</loc>
   </url>
   
 </urlset>
