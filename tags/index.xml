@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
+<<<<<<< HEAD
     <title>Tags on ACM Luther College</title>
     <link>https://luthercss.github.io/tags/</link>
     <description>ACM Luther College (Tags)</description>
@@ -8,6 +9,15 @@
     <language>en-us</language>
     
     <atom:link href="https://luthercss.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+=======
+    <title>Tags on ACM Luther College Blog</title>
+    <link>/tags/</link>
+    <description>ACM Luther College Blog (Tags)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+>>>>>>> parent of 33324df... Update url to /blog
     
     
   </channel>

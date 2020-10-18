@@ -3,31 +3,55 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+<<<<<<< HEAD
     <loc>https://luthercss.github.io/</loc>
+=======
+    <loc>/</loc>
+>>>>>>> parent of 33324df... Update url to /blog
     <lastmod>2020-10-16T02:40:57-05:00</lastmod>
   </url>
   
   <url>
+<<<<<<< HEAD
     <loc>https://luthercss.github.io/posts/</loc>
+=======
+    <loc>/posts/</loc>
+>>>>>>> parent of 33324df... Update url to /blog
     <lastmod>2020-10-16T02:40:57-05:00</lastmod>
   </url>
   
   <url>
+<<<<<<< HEAD
     <loc>https://luthercss.github.io/posts/workshop1/</loc>
+=======
+    <loc>/posts/00-workshop1/</loc>
+>>>>>>> parent of 33324df... Update url to /blog
     <lastmod>2020-10-16T02:40:57-05:00</lastmod>
   </url>
   
   <url>
+<<<<<<< HEAD
     <loc>https://luthercss.github.io/posts/hello/</loc>
+=======
+    <loc>/posts/hello/</loc>
+>>>>>>> parent of 33324df... Update url to /blog
     <lastmod>2020-10-16T02:30:19-05:00</lastmod>
   </url>
   
   <url>
+<<<<<<< HEAD
     <loc>https://luthercss.github.io/categories/</loc>
   </url>
   
   <url>
     <loc>https://luthercss.github.io/tags/</loc>
+=======
+    <loc>/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+>>>>>>> parent of 33324df... Update url to /blog
   </url>
   
 </urlset>
