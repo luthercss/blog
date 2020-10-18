@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on ACM Luther College</title>
-    <link>https://luthercss.github.io/posts/</link>
+    <link>https://luthercss.github.io/blog/posts/</link>
     <description>ACM Luther College (Posts)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 16 Oct 2020 02:40:57 -0500</lastBuildDate>
     
-    <atom:link href="https://luthercss.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://luthercss.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Setting Up: Getting Started with Hugo Sites</title>
-      <link>https://luthercss.github.io/posts/workshop1/</link>
+      <link>https://luthercss.github.io/blog/posts/workshop1/</link>
       <pubDate>Fri, 16 Oct 2020 02:40:57 -0500</pubDate>
       
-      <guid>https://luthercss.github.io/posts/workshop1/</guid>
+      <guid>https://luthercss.github.io/blog/posts/workshop1/</guid>
       <description>&lt;p&gt;Welcome to this ACM Luther tutorial to create a static site using Hugo. This blog post is intended to accompany the &amp;ldquo;Building a Personal Static Website&amp;rdquo; workshop on &lt;strong&gt;2020, Oct 18th&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;If you have any questions or trouble with this tutorial, you can message the &lt;a href=&#34;https://luthercs.slack.com/archives/C6Z17T3CK&#34;&gt;Luther ACM Slack channel&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;philosophy&#34;&gt;Philosophy&lt;/h2&gt;
@@ -93,10 +93,10 @@ Hugo Static Site Generator v0.13 BuildDate: 2015-03-09T21:34:47-05:00
     
     <item>
       <title>Hello!</title>
-      <link>https://luthercss.github.io/posts/hello/</link>
+      <link>https://luthercss.github.io/blog/posts/hello/</link>
       <pubDate>Fri, 16 Oct 2020 02:30:19 -0500</pubDate>
       
-      <guid>https://luthercss.github.io/posts/hello/</guid>
+      <guid>https://luthercss.github.io/blog/posts/hello/</guid>
       <description>&lt;p&gt;Welcome to the Luther College Computer Science Society (Luther ACM) Workshop page. This page will be used to host content related to workshops for CSS.&lt;/p&gt;
 &lt;p&gt;In the honor of being the first blog post, here is the obligatory&lt;/p&gt;
 &lt;blockquote&gt;
